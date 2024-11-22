@@ -1,0 +1,26 @@
+{
+  "name": "mockserver-typescript",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Onur Akkaya",
+  "license": "AGPL-3.0-or-later",
+  "private": false,
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx index.ts --watch",
+    "test": "jest --colors --coverage --config=jest.config.ts"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^8.0.1",
+    "fastify": "^5.1.0",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "*",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

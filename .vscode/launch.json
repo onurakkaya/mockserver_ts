@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Typescript (tsx)",
+            "type": "node",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/src/index.ts",
+            
+            // tsx is must be installed locally or globally
+            "runtimeExecutable": "tsx",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+
+            "skipFiles": [
+                "<node_internals>/**",
+                "node_modules/**"
+            ]
+        }
+    ]
+}
